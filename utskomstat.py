@@ -20,7 +20,7 @@ st.write("""dibuat oleh
          nama: Joseph FIlius H  
          NIM: 20234920002""")
 st.header("Flowchart")
-st.image("flowchart.png")
+st.image("flowchart.jpg")
 st.header("Data: data tangan poker dari 1jt permainan")
 st.write("data berisi data tangan poker texas holdem dari 1jt permainan, data akan digunakan untuk simulasi monte carlo")
 st.write("sumber data: https://www.kaggle.com/datasets/joogollucci/poker-hands-dataset")
