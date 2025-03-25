@@ -20,12 +20,12 @@ st.write("""dibuat oleh
          nama: Joseph FIlius H  
          NIM: 20234920002""")
 st.header("Flowchart")
-
+st.image("flowchart.png")
 st.header("Data: data tangan poker dari 1jt permainan")
 st.write("data berisi data tangan poker texas holdem dari 1jt permainan, data akan digunakan untuk simulasi monte carlo")
 st.write("sumber data: https://www.kaggle.com/datasets/joogollucci/poker-hands-dataset")
-df=st.image("pokdata.png")
-df
+st.image("pokdata.png")
+
 st.write("karena file data tangan poker terlalu besar untuk diupload ke git hub maka tadi digantikan gambar dari sebagian data")
 st.write("""penjelasan variabel  
          - hand: kartu yang berada ditangan  
@@ -58,7 +58,7 @@ st.write("""penjelasan variabel
 
 
 st.subheader("Data Exploration")
-df
+st.image("pokdata.png")
 st.markdown("""Berikut kode untuk barchart dari hasil tangan pada result 3 \n
             library(ggplot2)
             pok=read.csv("poker_dataset.csv")
